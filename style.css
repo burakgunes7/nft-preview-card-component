@@ -33,18 +33,23 @@ body {
   font-size: 18px;
   background-color: var(--main-bg);
   color: hsl(0, 0%, 100%, 60%);
-  padding: 1.25rem;
+  padding: 5rem;
 }
 
 .container {
-  padding: 1.25rem;
+  padding: 2rem;
   border-radius: 0.1rem;
   background-color: var(--card-bg);
   margin-bottom: 1rem;
+  border-radius: 10px;
 }
 
 .container .main-image {
   position: relative;
+}
+
+.container .main-image img {
+  border-radius: 10px;
 }
 
 .container .main-image div {
@@ -56,6 +61,7 @@ body {
   z-index: 999;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
 }
 
 .container .main-image div:hover {
